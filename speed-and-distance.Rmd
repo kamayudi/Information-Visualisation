@@ -1,5 +1,5 @@
 ---
-title: "map-visualisation"
+title: "speed-and-distance"
 author: "apri kamayudi kasiran"
 date: "03/08/2020"
 output: html_document
@@ -7,6 +7,12 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+# knit: (function(input_file, encoding) {
+#   out_dir <- 'docs';
+#   rmarkdown::render(input_file,
+#  encoding=encoding,
+#  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+
 ```
 
 ## R Markdown
